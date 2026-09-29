@@ -455,6 +455,9 @@ class HCPortfolio(object):
                         beta=self.beta,
                         b_sim=self.b_sim,
                         kappa=self.kappa,
+                        kappa_g=self.kappa_g,
+                        p_em=self.p_em,
+                        p_esm=self.p_esm,
                         solver=self.solver_rl,
                     )
                 else:
@@ -469,6 +472,9 @@ class HCPortfolio(object):
                         beta=self.beta,
                         b_sim=self.b_sim,
                         kappa=self.kappa,
+                        kappa_g=self.kappa_g,
+                        p_em=self.p_em,
+                        p_esm=self.p_esm,
                         solver=self.solver_rl,
                     )
                     if rm == "MV":
@@ -491,6 +497,9 @@ class HCPortfolio(object):
                         beta=self.beta,
                         b_sim=self.b_sim,
                         kappa=self.kappa,
+                        kappa_g=self.kappa_g,
+                        p_em=self.p_em,
+                        p_esm=self.p_esm,
                         solver=self.solver_rl,
                     )
                 else:
@@ -505,6 +514,9 @@ class HCPortfolio(object):
                         beta=self.beta,
                         b_sim=self.b_sim,
                         kappa=self.kappa,
+                        kappa_g=self.kappa_g,
+                        p_em=self.p_em,
+                        p_esm=self.p_esm,
                         solver=self.solver_rl,
                     )
                     if rm == "MV":
@@ -579,6 +591,8 @@ class HCPortfolio(object):
                                     beta=self.beta,
                                     b_sim=self.b_sim,
                                     kappa=self.kappa,
+                                    p_em=self.p_em,
+                                    p_esm=self.p_esm,
                                     kappa_g=self.kappa_g,
                                     solver=self.solver_rl,
                                 )
@@ -594,6 +608,8 @@ class HCPortfolio(object):
                                     beta=self.beta,
                                     b_sim=self.b_sim,
                                     kappa=self.kappa,
+                                    p_em=self.p_em,
+                                    p_esm=self.p_esm,
                                     kappa_g=self.kappa_g,
                                     solver=self.solver_rl,
                                 )
@@ -623,6 +639,8 @@ class HCPortfolio(object):
                                     beta=self.beta,
                                     b_sim=self.b_sim,
                                     kappa=self.kappa,
+                                    p_em=self.p_em,
+                                    p_esm=self.p_esm,
                                     kappa_g=self.kappa_g,
                                     solver=self.solver_rl,
                                 )
@@ -638,6 +656,8 @@ class HCPortfolio(object):
                                     beta=self.beta,
                                     b_sim=self.b_sim,
                                     kappa=self.kappa,
+                                    p_em=self.p_em,
+                                    p_esm=self.p_esm,
                                     kappa_g=self.kappa_g,
                                     solver=self.solver_rl,
                                 )
